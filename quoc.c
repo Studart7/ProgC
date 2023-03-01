@@ -2,15 +2,18 @@
 
 int main() {
     int num1, num2;
+
     printf("Digite um numero: ");
-    scanf("%i", &num1);
+    scanf("%d", &num1);
     printf("Digite um numero: ");
-    scanf("%i", &num2);
-    float resto = (num1 % num2);
-    float quoci = (num1 / num2);
-    printf("Os numeros inseridos sao: %i, %i \n", num1, num2);
-    printf("O quociente desses numeros resulta em: %f \n", quoci);
-    printf("O resto desses numeros resulta em: %f", resto);
+    scanf("%d", &num2);
+
+    int resto = (num1 % num2);
+    int quoci = (num1 / num2);
+
+    printf("Os numeros inseridos sao: %d, %d \n", num1, num2);
+    printf("O quociente desses numeros resulta em: %d \n", quoci);
+    printf("O resto desses numeros resulta em: %d", resto);
     
     return 0;
 }

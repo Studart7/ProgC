@@ -1,53 +1,29 @@
 #include <stdio.h>
 
-int main(){
+int main() {
+    char c;
 
-    char frase[30], c, i, final[30];
-
-    scanf("%s", &frase);
-
-    for (i=0;i<frase[30]; i++){
-        if (frase[i] == "-"){
-            final[i] = "-";
+    while (scanf("%c", &c) != EOF) {
+        if (c == 'A' || c == 'B' || c == 'C') {
+            printf("2");
+        } else if (c == 'D' || c == 'E' || c == 'F') {
+            printf("3");
+        } else if (c == 'G' || c == 'H' || c == 'I') {
+            printf("4");
+        } else if (c == 'J' || c == 'K' || c == 'L') {
+            printf("5");
+        } else if (c == 'M' || c == 'N' || c == 'O') {
+            printf("6");
+        } else if (c == 'P' || c == 'Q' || c == 'R' || c == 'S') {
+            printf("7");
+        } else if (c == 'T' || c == 'U' || c == 'V') {
+            printf("8");
+        } else if (c == 'W' || c == 'X' || c == 'Y' || c == 'Z') {
+            printf("9");
+        } else {
+            printf("%c", c);
         }
-        else if (frase[i] == "1"){
-            final[i] = "1";
-        }
-        else if (frase[i] == "0"){
-            final[i] = "0";
-        }
-        else if (frase[i] == "A" || frase[i] == "B" || frase[i] == "C" ){
-            final[i] = "2";
-        }
-        else if (frase[i] == "D" || frase[i] == "E" || frase[i] == "F" ){
-            final[i] = "3";
-        }
-        else if (frase[i] == "G" || frase[i] == "H" || frase[i] == "I" ){
-            final[i] = "4";
-        }
-        else if (frase[i] == "J" || frase[i] == "K" || frase[i] == "L" ){
-            final[i] = "5";
-        }
-        else if (frase[i] == "M" || frase[i] == "N" || frase[i] == "O" ){
-            final[i] = "6";
-        }
-        else if (frase[i] == "P" || frase[i] == "Q" || frase[i] == "R"|| frase[i] == "S" ){
-            final[i] = "7";
-        }
-        else if (frase[i] == "T" || frase[i] == "U" || frase[i] == "V" ){
-            final[i] = "8";
-        }
-        else if (frase[i] == "W" || frase[i] == "X" || frase[i] == "Y" || frase[i] == "Z" ){
-            final[i] = "9";
-        }
-        else{
-            final[i] = "";
-        }
-        
     }
-
-    printf("%s", final);
-
 
     return 0;
 }

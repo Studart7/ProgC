@@ -1,0 +1,1 @@
+//2.	Ler 3 valores numéricos e imprimir a soma dos 2 maiores e a diferença dos 2 menores. 

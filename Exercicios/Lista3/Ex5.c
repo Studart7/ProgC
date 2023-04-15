@@ -1,0 +1,2 @@
+/*Ler uma temperatura e a escala (C-Celsius ou F- Fahrenheit ) e convertê-la para a outra escala.  
+Ou seja, se o usuário informar a temperatura em Celsius esta deverá convertida para Fahrenheit e vice-versa. */

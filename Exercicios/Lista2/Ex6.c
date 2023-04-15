@@ -1,0 +1,1 @@
+/*Ler um inteiro n e imprimir seus divisores. */

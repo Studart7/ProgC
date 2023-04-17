@@ -1,0 +1,2 @@
+/*11.	Ler dois vetores de inteiros a e b (máximo de 20 números) com a mesma quantidade de números e calcular 
+o produto escalar p de a e b, isto é, p = a[0] * b[0] + a[1] * b[1] + a[2] * b[2] + ... + a[n] * b[n]. */

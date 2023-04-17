@@ -1,4 +1,9 @@
-/*3.	Ler dois valores de hora, minuto e segundo (h1, m1, s1, h2, m2, s2).  
-Em seguida imprimir o intervalo entre esses dois horários em hora, 
-minuto e segundo. Dica: converta os horários lidos para segundos, 
-calcule a diferença e converta a diferença em hora, minuto e segundo. */
+/*3.	Escreva um algoritmo que gere a seguinte matriz: 
+1 1 1 1 1 1
+1 2 2 2 2 1
+1 2 3 3 2 1 
+1 2 3 3 2 1 
+1 2 2 2 2 1 
+1 1 1 1 1 1
+ */
+

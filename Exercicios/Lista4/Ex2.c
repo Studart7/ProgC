@@ -1,1 +1,7 @@
-//2.	Ler 3 valores numéricos e imprimir a soma dos 2 maiores e a diferença dos 2 menores. 
+/*2.	Escrever um algoritmo que lê uma matriz M(10,10) e a escreve. Troque, a seguir: 
+a) a linha 2 com a linha 8
+b) a coluna 4 com a coluna 10 
+c) a diagonal principal com a diagonal secundária 
+d) a linha 5 com a coluna 10. 
+Escreva a matriz assim modificada
+*/

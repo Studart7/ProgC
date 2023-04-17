@@ -17,13 +17,13 @@ int main(){
             M[i][j] = 1;
         }
     }
-
+                                        
     for (i = 0; i < 5; i++){
         for (j = 0; j < 5; j++){
-            if (j == 2){
+            if (j == 1){
                 soma2 += M[i][j];
             }
-            if (i == 4){
+            if (i == 3){
                 soma1 += M[i][j];
             }
             if (i == j){
@@ -32,7 +32,7 @@ int main(){
             soma5 += M[i][j];
         } 
     }
-
+    
     for (i = 0; i < 5; i++) {
         soma4 += M[i][4-i];
     }   

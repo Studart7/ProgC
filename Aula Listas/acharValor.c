@@ -100,7 +100,7 @@ no *insere_no_posicao(no *lista, float valor, int posicao) {
         printf("\nEssa posicao nao esta na lista.");
     }else{
         no_atual = cria_no(valor);
-        no_atual->prox
+        no_atual->prox;
 
     }
     
